@@ -1,3 +1,4 @@
+import chalk from 'chalk';
 const a = Math.random();
 const b = Math.random();
 const sum = a + b;
