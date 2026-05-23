@@ -1,0 +1,11 @@
+{
+  "name": "developer-tools-task",
+  "version": "1.0.0",
+  "description": "Задание по инструментам разработчика",
+  "main": "script.js",
+  "scripts": {
+    "color": "node script.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
