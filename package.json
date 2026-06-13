@@ -7,6 +7,20 @@
     "color": "node script.js"
   },
   "dependencies": {
-    "chalk": "^5.0.0"
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
+    "@mui/material": "^9.1.1",
+    "@tanstack/react-query": "^5.101.0",
+    "axios": "^1.17.0",
+    "chalk": "^5.0.0",
+    "currency.js": "^2.0.4",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7",
+    "react-router": "^7.17.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "typescript": "^6.0.3"
   }
 }
