@@ -49,7 +49,7 @@ const WeatherWidget: React.FC = () => {
 
   if (isLoading) {
     return (
-      <Box display="flex" justifyContent="center" mt={4}>
+     <Box sx={{ display: 'flex', justifyContent: 'center', mt: 4 }}>
         <CircularProgress />
       </Box>
     );
@@ -78,17 +78,17 @@ const WeatherWidget: React.FC = () => {
         textAlign: 'center',
       }}
     >
-      <Typography variant="h5" mb={1}>
+      <Typography variant="h5" sx={{ mb: 1 }}>
         {data.location.name}, {data.location.country}
       </Typography>
-      <Typography variant="h3" mb={1}>
+     <Typography variant="h3" sx={{ mb: 1 }}>
         {data.current.temp_c}°C
       </Typography>
-      <Typography variant="body1" color="text.secondary" mb={3}>
+      <Typography variant="body1" color="text.secondary" sx={{ mb: 3 }}>
         {data.current.condition.text}
       </Typography>
 
-      <Stack direction="row" spacing={1} justifyContent="center">
+     <Stack direction="row" spacing={1} sx={{ justifyContent: 'center' }}>
         <Button
           variant="contained"
           onClick={() => mutation.mutate()}

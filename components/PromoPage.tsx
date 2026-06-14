@@ -17,7 +17,7 @@ const PromoPage: React.FC = () => {
 
   return (
     <Box>
-      <Typography variant="h5" mb={2}>Введите промокод</Typography>
+   <Typography variant="h5" sx={{ mb: 2 }}>Введите промокод</Typography>
       <TextField
         label="Промокод"
         value={value}

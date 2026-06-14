@@ -46,9 +46,8 @@ const TodoListWithSearch: React.FC = () => {
 
   return (
     <Box sx={{ maxWidth: 500, mx: 'auto', mt: 4 }}>
-      <Typography variant="h5" mb={2}>Список дел</Typography>
-
-      <Stack direction="row" spacing={1} mb={2}>
+    <Typography variant="h5" sx={{ mb: 2 }}>Список дел</Typography>
+      <Stack direction="row" spacing={1} sx={{ mb: 2 }}>
         <TextField
           label="Новое дело"
           size="small"
@@ -60,7 +59,7 @@ const TodoListWithSearch: React.FC = () => {
         <Button variant="contained" onClick={addTodo}>Добавить</Button>
       </Stack>
 
-      <Stack direction="row" spacing={1} mb={2}>
+      <Stack direction="row" spacing={1} sx={{ mb: 2 }}>
         <TextField
           label="Поиск"
           size="small"
